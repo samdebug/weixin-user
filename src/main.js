@@ -30,6 +30,8 @@ import axios from 'axios'
 
 
 // cookie方法
+
+
 Vue.prototype.lcookie = {
   setCookies:function (name,value) {
     var Days = 30;
@@ -69,7 +71,7 @@ Vue.prototype.payType  = 'saobei'
 
 Vue.prototype.referId  = ''
 
-Vue.prototype.yPost = function (url, prop) {
+Vue.prototype.yPost = function (url, prop) {0
   const data =prop || {};
   //写死
   data.reType = 1;
